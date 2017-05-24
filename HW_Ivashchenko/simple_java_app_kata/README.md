@@ -42,6 +42,15 @@ added manifest
 adding: out/(in = 0) (out= 0)(stored 0%)
 adding: out/Main.class(in = 412) (out= 287)(deflated 30%)
 
+$ git commit -m "wrong, it includes the out folder to jar"
+[master 7d7ea22] wrong, it includes the out folder to jar
+ 1 file changed, 10 insertions(+)
+
+$ jar -cvf app.jar -C out/ .
+added manifest
+adding: Main.class(in = 412) (out= 287)(deflated 30%)
+
+
 
 
 
