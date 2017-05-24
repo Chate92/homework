@@ -23,3 +23,17 @@ git commit -m "Added some code in to Main.java"
 [master 9b5228c] Added some code in to Main.java
  3 files changed, 29 insertions(+), 1 deletion(-)
  create mode 100644 HW_Ivashchenko/simple_java_app_kata/.gitignore
+
+$ javac -d out src/Main.java
+$ git commit -m "Compile Main.java"
+[master b870a78] Compile Main.java
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+
+$ java -cp out Main
+Good start
+
+
+
+
+
