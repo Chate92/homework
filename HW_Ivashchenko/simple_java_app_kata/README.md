@@ -33,6 +33,16 @@ $ git commit -m "Compile Main.java"
 $ java -cp out Main
 Good start
 
+$ git commit -m "Run Main.class"
+[master 7646948] Run Main.class
+ 1 file changed, 14 insertions(+)
+
+$ jar -cvf app.jar out
+added manifest
+adding: out/(in = 0) (out= 0)(stored 0%)
+adding: out/Main.class(in = 412) (out= 287)(deflated 30%)
+
+
 
 
 
