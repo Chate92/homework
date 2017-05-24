@@ -18,4 +18,8 @@ git add src/Main.java
 [master 350d807] Create Main.java
  1 file changed, 1 insertion(+)
  create mode 100644 HW_Ivashchenko/simple_java_app_kata/src/Main.java
-
+git add src/Main.java
+git commit -m "Added some code in to Main.java"
+[master 9b5228c] Added some code in to Main.java
+ 3 files changed, 29 insertions(+), 1 deletion(-)
+ create mode 100644 HW_Ivashchenko/simple_java_app_kata/.gitignore
